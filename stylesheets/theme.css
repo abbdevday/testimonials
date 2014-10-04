@@ -1812,7 +1812,7 @@ ul.inline li {
 .blockquote-well .round-box {
   position: absolute;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -50px;
   top: 100%;
   margin-top: -60px;
 }
