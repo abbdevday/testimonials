@@ -23,6 +23,30 @@
   <link href="stylesheets/fancybox.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="stylesheets/theme.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="stylesheets/fonts.css" media="screen" rel="stylesheet" type="text/css" />
+  <style>
+    .embed-responsive.embed-responsive-16by9 {
+      padding-bottom: 56.25%;
+    }
+
+    .embed-responsive {
+      position: relative;
+      display: block;
+      height: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+
+    .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed,
+    .embed-responsive object, .embed-responsive video {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border: 0px none;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -47,10 +71,10 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media</a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="pictures.html">Pictures</a>
+                      <a href="https://www.flickr.com/photos/96896358@N04/sets/72157648865068002/">Pictures</a>
                     </li>
                     <li>
-                      <a href="videos.html">Videos</a>
+                      <a href="https://www.youtube.com/playlist?list=PLBMFXMTB7U76Lnuq3HbOem3dd5S2dfTha">Videos</a>
                     </li>
                   </ul>
                 </li>
@@ -117,8 +141,21 @@
           </p>
         </div>
       </section>
-      <!-- Testimonials -->
+      <!-- Promo video -->
       <section class="section section-alt section-padded">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h1>Video <small class="light">highlight</small></h1>
+          </div>
+          <div class="row-fluid">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe allowfullscreen="" src="//www.youtube.com/embed/-JjHcBU0Fv4?rel=0" class="embed-responsive-item"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section class="section section-padded">
         <div class="container-fluid">
           <div class="section-header">
             <h1>
@@ -175,6 +212,48 @@
               </a>
           </div>
         </div>
+      </section>
+      <section class="section section-alt section-padded">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h1>Media</h1>
+          </div>
+          <div class="row-fluid">
+            <ul class="thumbnails portfolio">
+              <li class="span6">
+                <figure class="round-box box-huge no-rounded">
+                  <a class="box-inner" style="width: 500px;" title="pictures" href="https://www.flickr.com/photos/96896358@N04/sets/72157648865068002/">
+                    <img class="" src="images/assets/flickr_picture.jpg" alt="devday image"/>
+                  </a>
+                  <figcaption style="max-width: 400px;">
+                    <h4>
+                      <a href="https://www.flickr.com/photos/96896358@N04/sets/72157648865068002/">Pictures</a>
+                    </h4>
+                    <p>
+                      A lot of moments we all shared were caught through camera lenses and put on Flickr.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="span6">
+                <figure class="round-box box-huge no-rounded">
+                  <a class="box-inner" style="width: 500px;" title="videos" href="https://www.youtube.com/playlist?list=PLBMFXMTB7U76Lnuq3HbOem3dd5S2dfTha">
+                    <img class="" src="images/assets/youtube_video.jpg" alt="devday videos"/>
+                  </a>
+                  <figcaption style="max-width: 400px;">
+                    <h4>
+                      <a href="https://www.youtube.com/playlist?list=PLBMFXMTB7U76Lnuq3HbOem3dd5S2dfTha">Videos</a>
+                    </h4>
+                    <p>
+                      All sessions were recorded, thus if you weren't able to attend, now is your time to watch them.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </section>
       <!-- Founded by -->
       <section class="section section-padded">
